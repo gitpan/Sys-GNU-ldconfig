@@ -1,5 +1,5 @@
 package Sys::GNU::ldconfig;
-# $Id: ldconfig.pm 1084 2013-02-21 20:35:16Z fil $
+# $Id: ldconfig.pm 1086 2013-02-25 16:53:37Z fil $
 # Copyright 2013 Philip Gwyn - All rights reserved
 
 use 5.00405;
@@ -8,7 +8,7 @@ use warnings;
 
 use vars qw($VERSION @ISA @EXPORT);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 require Exporter;
 @ISA = qw( Exporter );
